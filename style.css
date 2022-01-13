@@ -1,0 +1,35 @@
+nav a {
+  color: crimson;
+  text-decoration: none;
+}
+.about blockquote {
+  background-color: #eaeaea;
+}
+.users span {
+  font-weight: bold;
+}
+.users span:nth-child(2) {
+  color: crimson;
+}
+.creators a {
+  color: crimson;
+}
+.creators a:visited {
+  color: crimson;
+}
+.creators a:nth-child(odd) {
+  font-family: "Lato";
+  text-decoration: none;
+}
+.creators a:nth-child(even) {
+  font-family: "PT Serif";
+  font-weight: bold;
+  text-decoration: none;
+}
+#cta {
+  font-family: "Lato";
+  color: crimson;
+}
+ul li:nth-child(odd) {
+  text-decoration: underline;
+}
