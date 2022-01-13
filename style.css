@@ -33,3 +33,22 @@ nav a {
 ul li:nth-child(odd) {
   text-decoration: underline;
 }
+nav {
+  display: inline-block;
+  position: relative;
+}
+nav a {
+  text-decoration: none;
+}
+nav a::after {
+  content: " ";
+  width: 0%;
+  height: 2px;
+  background: crimson;
+  display: block;
+  margin: auto;
+  transition: 1s;
+}
+nav a:hover::after {
+  width: 100%;
+}
